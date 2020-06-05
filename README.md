@@ -19,6 +19,9 @@ The following is a list of possible values for the `mountPoint` argument of `win
 
 Note: Multiple plugins can be mounted at the same locations. In this case, they will be rendered according to the order in which they invoked `window.registerPlugin`
 
+![Ticket List View Mount Points](mount-points-ticket-list-view.png)
+![Ticket View Mount Points](mount-points-ticket-view.png)
+
 - `root` - At the root of the application. Modals should use this mount point.
 
 ### Ticket List View
@@ -27,7 +30,6 @@ Note: Multiple plugins can be mounted at the same locations. In this case, they 
 - `ticket-list-item-icons` - At the end of the list of icons shown when a ticket in the Ticket List view is focused or selected.
 - `ticket-list-sidebar-top` - Under the header of the sidebar shown on the Ticket List view
 - `ticket-list-sidebar-bottom` - Under all other content in the sidebar shown on the Ticket List view
-- `ticket-list-sidebar-icons` - At the end of the list of icons in the sidebar shown on the Ticket List view
 
 ### Ticket View
 
