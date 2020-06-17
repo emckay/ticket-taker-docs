@@ -2,6 +2,8 @@
 
 Plugin components are passed a prop called `eventStream`. Various parts of the application publish events to this stream. Your component may also publish events that other plugins can listen to by using the `emit` function.
 
+Need another event for your plugin? Just ask!
+
 ### Events
 
 * `TICKET_SELECTED` - Payload: `{ticketId: string}`
